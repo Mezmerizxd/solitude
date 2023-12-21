@@ -5,7 +5,7 @@ import React from 'react';
 interface AccordionProps {
   accordions: {
     title: string;
-    content: string;
+    content: any;
   }[];
   className?: string;
 }

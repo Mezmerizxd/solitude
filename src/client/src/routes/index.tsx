@@ -19,7 +19,7 @@ export const AppRoutes = () => {
   const element = useRoutes([...commonRoutes]);
 
   return (
-    <div className="text-white-light">
+    <div className="text-white-light bg-black">
       <StarfieldAnimation
         style={{
           position: 'fixed',
