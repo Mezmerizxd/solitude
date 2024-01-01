@@ -50,4 +50,28 @@ export const home_hero_quotes: { quote: string; author: string }[] = [
       "Everything is nonsense that endures, except the infinite; but it's nothing to me, because I'm part of the contingent.",
     author: 'Alexander Pushkin',
   },
+  {
+    quote: 'Random Quote.',
+    author: 'Random Author',
+  },
+  {
+    quote: 'Random Quote.',
+    author: 'Random Author',
+  },
+  {
+    quote: 'Random Quote.',
+    author: 'Random Author',
+  },
+  {
+    quote: 'Random Quote.',
+    author: 'Random Author',
+  },
+  {
+    quote: 'Random Quote.',
+    author: 'Random Author',
+  },
+  {
+    quote: 'Random Quote.',
+    author: 'Random Author',
+  },
 ];

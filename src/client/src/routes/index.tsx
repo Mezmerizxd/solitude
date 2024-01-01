@@ -67,7 +67,7 @@ export const AppRoutes = () => {
         },
         links: {
           color: '#BDDE43',
-          distance: 150,
+          distance: 200,
           enable: true,
           opacity: 0.5,
           width: 1,
@@ -79,14 +79,14 @@ export const AppRoutes = () => {
             default: 'out',
           },
           random: true,
-          speed: 2,
+          speed: 3,
           straight: false,
         },
         number: {
           density: {
             enable: true,
           },
-          value: 80,
+          value: 100,
         },
         opacity: {
           value: 0.5,
