@@ -6,7 +6,7 @@ export const navigation_items = [
     to: '/',
   },
   {
-    name: 'Courses Completed',
+    name: 'Courses',
     to: '/courses',
   },
   {

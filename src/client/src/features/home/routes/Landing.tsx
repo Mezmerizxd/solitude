@@ -94,7 +94,9 @@ export const Landing = () => {
           <Link className="mt-5" to="3" spy={true} smooth={true} duration={1000}>
             <Button
               variant="hidden"
-              startIcon={<FaArrowDown size={40} className="p-2 bg-accent-dark/10 rounded-full" />}
+              startIcon={
+                <FaArrowDown size={45} className="p-2 bg-accent-dark/10 rounded-full border border-accent-dark" />
+              }
             />
           </Link>
         </div>

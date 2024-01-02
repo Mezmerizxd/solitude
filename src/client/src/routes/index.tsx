@@ -24,17 +24,14 @@ export const AppRoutes = () => {
 
   React.useEffect(() => {
     initParticlesEngine(async (engine) => {
-      //await loadAll(engine);
-      //await loadFull(engine);
       await loadSlim(engine);
-      //await loadBasic(engine);
     }).then(() => {
       setInit(true);
     });
   }, []);
 
   const particlesLoaded = async (container?: Container): Promise<void> => {
-    // console.log(container);
+    return;
   };
 
   const options: ISourceOptions = React.useMemo(
