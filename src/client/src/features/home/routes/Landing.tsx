@@ -83,6 +83,16 @@ export const Landing = () => {
                     </>
                   ),
                 },
+                {
+                  title: 'AWS Skillbuilder',
+                  content: (
+                    <div>
+                      <p>Introduction to Containers</p>
+                      <p>Cloud Essentials - Knowledge Badge Readiness Path</p>
+                      <p>Solutions Architect - Knowledge Badge Readiness Path</p>
+                    </div>
+                  ),
+                },
               ]}
             />
           </div>
@@ -189,6 +199,44 @@ export const Landing = () => {
                       >
                         GitHub repository
                       </a>
+                    </>
+                  ),
+                },
+                {
+                  title: 'Purge Engine',
+                  content: <>Grand Theft Auto V Mod Menu</>,
+                },
+                {
+                  title: 'Odin',
+                  content: <>FiveM Server</>,
+                },
+                {
+                  title: 'Prometheus V2',
+                  content: (
+                    <>
+                      It's Prometheus but with a management dashboard for things like Notes and creating MOT Checklists
+                    </>
+                  ),
+                },
+                {
+                  title: 'Maxshot1382',
+                  content: <>Take a screenshot using cmd, used in Odin for screenshots of thousands of clothing</>,
+                },
+                {
+                  title: 'Nandy',
+                  content: (
+                    <>
+                      Didn't finish but it is used in a Raspberry Pi Pico to Read/Write data from an Xbox 360 Nand
+                      Memory
+                    </>
+                  ),
+                },
+                {
+                  title: 'Spotify Tools',
+                  content: (
+                    <>
+                      Turns your Spotify playlists into JSON, I only used it so I could convert my Spotify playlist into
+                      a YouTube playlist so I could download it all
                     </>
                   ),
                 },
