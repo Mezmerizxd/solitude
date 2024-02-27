@@ -8,6 +8,8 @@ import { loadSlim } from '@tsparticles/slim';
 
 const { Landing } = lazyImport(() => import('../features/home'), 'Landing');
 const { Components } = lazyImport(() => import('../features/home'), 'Components');
+const { Me } = lazyImport(() => import('../features/home'), 'Me');
+const { Projects } = lazyImport(() => import('../features/home'), 'Projects');
 
 export const AppRoutes = () => {
   const [init, setInit] = React.useState(false);
@@ -17,6 +19,14 @@ export const AppRoutes = () => {
     {
       path: '/components',
       element: <Components />,
+    },
+    {
+      path: '/me',
+      element: <Me />,
+    },
+    {
+      path: '/projects',
+      element: <Projects />,
     },
   ];
 

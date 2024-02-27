@@ -23,6 +23,34 @@ export const Landing = () => {
       </Section>
       <Section id="2">
         <div className="w-full h-5/6 flex flex-col justify-center items-center">
+          <h1 className="text-2xl sm:text-2xl md:text-3xl">Me</h1>
+          <div className="w-full max-w-4xl p-5 mt-5">
+            <p className="text-xl xl:text-2xl text-left">
+              I'm Rory, a 20-year-old software developer from the UK. I'm passionate about coding, cars, and travelling.
+              I started learning Python in 2015 with my grandad, who is also a programmer, and since then I have taught
+              myself various languages and technologies, such as HTML/CSS, C/C++, JavaScript, TypeScript, React, Go, and
+              more. I'm currently interested in learning more about car ECU's, devices, reverse engineering, and low
+              level coding. My dream is to build my own project track car and drive around Europe in it. I'm also
+              neurodiverse {'(High Functioning Autism)'}, which makes me see the world in a different way.
+            </p>
+          </div>
+          <Button className="mt-5" onClick={() => (window.location.href = 'me')}>
+            See More
+          </Button>
+        </div>
+        <div className="flex flex-col justify-center items-center">
+          <Link className="mt-5" to="3" spy={true} smooth={true} duration={1000}>
+            <Button
+              variant="hidden"
+              startIcon={
+                <FaArrowDown size={45} className="p-2 bg-accent-dark/10 rounded-full border border-accent-dark" />
+              }
+            />
+          </Link>
+        </div>
+      </Section>
+      <Section id="3">
+        <div className="w-full h-5/6 flex flex-col justify-center items-center">
           <h1 className="text-2xl sm:text-2xl md:text-3xl">Courses I have completed</h1>
           <div className="w-full mt-5">
             <Accordion
@@ -86,10 +114,13 @@ export const Landing = () => {
                 {
                   title: 'AWS Skillbuilder',
                   content: (
-                    <div>
-                      <p>Introduction to Containers</p>
-                      <p>Cloud Essentials - Knowledge Badge Readiness Path</p>
-                      <p>Solutions Architect - Knowledge Badge Readiness Path</p>
+                    <div className="text-accent-dark font-semibold divide-y-2 divide-accent-light/20">
+                      <p className="p-2">Introduction to Containers</p>
+                      <p className="p-2">AWS Billing and Cost Management</p>
+                      <p className="p-2">AWS Foundations: Getting Started with the AWS Cloud Essentials</p>
+                      <p className="p-2">Cloud Essentials - Knowledge Badge Readiness Path</p>
+                      <p className="p-2">Cloud Essentials - Knowledge Badge Assessment</p>
+                      <p className="p-2">Solutions Architect - Knowledge Badge Readiness Path</p>
                     </div>
                   ),
                 },
@@ -101,7 +132,7 @@ export const Landing = () => {
           </Button>
         </div>
         <div className="flex flex-col justify-center items-center">
-          <Link className="mt-5" to="3" spy={true} smooth={true} duration={1000}>
+          <Link className="mt-5" to="4" spy={true} smooth={true} duration={1000}>
             <Button
               variant="hidden"
               startIcon={
@@ -111,7 +142,7 @@ export const Landing = () => {
           </Link>
         </div>
       </Section>
-      <Section id="3" className="flex flex-col justify-center items-center">
+      <Section id="4" className="flex flex-col justify-center items-center">
         <div className="w-full h-5/6 flex flex-col justify-center items-center">
           <h1 className="text-2xl sm:text-2xl md:text-3xl">Projects</h1>
           <div className="w-full mt-5">

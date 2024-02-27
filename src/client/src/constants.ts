@@ -6,16 +6,12 @@ export const navigation_items = [
     to: '/',
   },
   {
-    name: 'Courses',
-    to: '/courses',
+    name: 'Me',
+    to: '/me',
   },
   {
     name: 'Projects',
     to: '/projects',
-  },
-  {
-    name: 'How Did I Learn?',
-    to: '/how',
   },
   {
     name: 'Components',
