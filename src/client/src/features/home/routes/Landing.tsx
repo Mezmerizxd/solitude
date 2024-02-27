@@ -127,9 +127,6 @@ export const Landing = () => {
               ]}
             />
           </div>
-          <Button className="mt-5" onClick={() => (window.location.href = 'courses')}>
-            See More
-          </Button>
         </div>
         <div className="flex flex-col justify-center items-center">
           <Link className="mt-5" to="4" spy={true} smooth={true} duration={1000}>
