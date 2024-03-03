@@ -115,12 +115,61 @@ export const Landing = () => {
                   title: 'AWS Skillbuilder',
                   content: (
                     <div className="text-accent-dark font-semibold divide-y-2 divide-accent-light/20">
-                      <p className="p-2">Introduction to Containers</p>
-                      <p className="p-2">AWS Billing and Cost Management</p>
-                      <p className="p-2">AWS Foundations: Getting Started with the AWS Cloud Essentials</p>
-                      <p className="p-2">Cloud Essentials - Knowledge Badge Readiness Path</p>
-                      <p className="p-2">Cloud Essentials - Knowledge Badge Assessment</p>
-                      <p className="p-2">Solutions Architect - Knowledge Badge Readiness Path</p>
+                      <p
+                        className="p-2 cursor-pointer hover:text-accent-dark/80"
+                        onClick={() => {
+                          window.open(
+                            'https://vkocdacolvehnoyaalyv.supabase.co/storage/v1/object/public/solitude/106_3_4931962_1707502794_AWS%20Course%20Completion%20Certificate.pdf?t=2024-03-03T14%3A07%3A10.509Z',
+                            '_blank',
+                          );
+                        }}
+                      >
+                        Introduction to Containers
+                      </p>
+                      <p
+                        className="p-2 cursor-pointer hover:text-accent-dark/80"
+                        onClick={() => {
+                          window.open(
+                            'https://vkocdacolvehnoyaalyv.supabase.co/storage/v1/object/public/solitude/129_3_4931962_1709047301_AWS%20Course%20Completion%20Certificate.pdf?t=2024-03-03T14%3A09%3A08.912Z',
+                            '_blank',
+                          );
+                        }}
+                      >
+                        AWS Billing and Cost Management
+                      </p>
+                      <p
+                        className="p-2 cursor-pointer hover:text-accent-dark/80"
+                        onClick={() => {
+                          window.open(
+                            'https://vkocdacolvehnoyaalyv.supabase.co/storage/v1/object/public/solitude/482_3_4931962_1709048241_AWS%20Course%20Completion%20Certificate.pdf?t=2024-03-03T14%3A10%3A16.536Z',
+                            '_blank',
+                          );
+                        }}
+                      >
+                        AWS Foundations: Getting Started with the AWS Cloud Essentials
+                      </p>
+                      <p
+                        className="p-2 cursor-pointer hover:text-accent-dark/80"
+                        onClick={() => {
+                          window.open(
+                            'https://vkocdacolvehnoyaalyv.supabase.co/storage/v1/object/public/solitude/15782_3_4931962_1709049595_AWS%20Course%20Completion%20Certificate.pdf?t=2024-03-03T14%3A10%3A57.580Z',
+                            '_blank',
+                          );
+                        }}
+                      >
+                        Cloud Essentials - Knowledge Badge Assessment
+                      </p>
+                      <p
+                        className="p-2 cursor-pointer hover:text-accent-dark/80"
+                        onClick={() => {
+                          window.open(
+                            'https://credly.com/badges/50d0857a-aded-4cb2-ba8b-e93bbaa63103/public_url',
+                            '_blank',
+                          );
+                        }}
+                      >
+                        AWS Knowledge: Cloud Essentials
+                      </p>
                     </div>
                   ),
                 },
