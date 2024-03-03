@@ -173,6 +173,24 @@ export const Landing = () => {
                     </div>
                   ),
                 },
+                {
+                  title: 'Cisco Networking Academy',
+                  content: (
+                    <div className="text-accent-dark font-semibold divide-y-2 divide-accent-light/20">
+                      <p
+                        className="p-2 cursor-pointer hover:text-accent-dark/80"
+                        onClick={() => {
+                          window.open(
+                            'https://www.credly.com/badges/631e2c79-e44a-4e18-8a8a-aac62229ec3e/public_url',
+                            '_blank',
+                          );
+                        }}
+                      >
+                        Networking Basics
+                      </p>
+                    </div>
+                  ),
+                },
               ]}
             />
           </div>
